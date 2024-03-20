@@ -1,4 +1,4 @@
-package com.springservices.restfulwebservices.basicauth;
+package com.microservices.basicauth;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,10 +1,10 @@
-package com.springservices.restfulwebservices.basicauth;
+package com.microservices.helloworld;
 
-public class BasicAuthBean {
+public class HelloWorldBean {
 	
 	private String message;
 
-	public BasicAuthBean(String message) {
+	public HelloWorldBean(String message) {
 		super();
 		this.message = message;
 	}
@@ -19,7 +19,7 @@ public class BasicAuthBean {
 
 	@Override
 	public String toString() {
-		return "BasicAuthBean [message=" + message + "]";
+		return "HelloWorldBean [message=" + message + "]";
 	}
 
 }

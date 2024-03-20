@@ -1,13 +1,13 @@
-package com.springservices.restfulwebservices;
+package com.microservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestfulWebServicesApplication {
+public class TodoMicroservicesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestfulWebServicesApplication.class, args);
+		SpringApplication.run(TodoMicroservicesApplication.class, args);
 	}
 
 }

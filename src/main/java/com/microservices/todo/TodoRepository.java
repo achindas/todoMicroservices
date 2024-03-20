@@ -1,4 +1,4 @@
-package com.springservices.restfulwebservices.todo;
+package com.microservices.todo;
 
 import java.util.ArrayList;
 import java.util.Date;

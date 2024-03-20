@@ -1,4 +1,4 @@
-package com.springservices.restfulwebservices.todo;
+package com.microservices.todo;
 
 import java.net.URI;
 import java.util.List;

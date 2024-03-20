@@ -1,4 +1,4 @@
-package com.springservices.restfulwebservices.jwt;
+package com.microservices.jwt;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 
