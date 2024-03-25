@@ -1,10 +1,10 @@
-package com.microservices;
+package com.microservices.todoservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TodoMicroservicesApplicationTests {
+class TodoServicesApplicationTests {
 
 	@Test
 	void contextLoads() {
