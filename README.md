@@ -1,22 +1,6 @@
 # TO-DO List Management Application - Spring Boot Microservices
 
 ## Table of Contents
-<<<<<<< HEAD
-* [App Description](#app-description)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-## App Description
-
-This is the app description
-
-## Technologies Used
-
-This is
-
-## Conclusions
-=======
 * [Objectives](#objectives)
 * [App Description](#app-description)
 * [Technologies Used](#technologies-used)
@@ -51,7 +35,9 @@ This is the only and main restful microservice that manages the CRUD operations 
 
 #### Usage
 
-    Deploy: java -jar naming-server-0.0.1-SNAPSHOT.jar --spring.profiles.active=default
+    Deploy: java -jar todo-microservices-0.0.1-SNAPSHOT.jar --spring.profiles.active=default --spring.h2.console.settings.web-allow-others=true
+
+    API Prefix: http://<IP Address/Domain Name>:8000
 
     Get Todos: "/todo-services/get-all-todos/user/{username}/todos"
 
@@ -64,10 +50,15 @@ This is the only and main restful microservice that manages the CRUD operations 
     Delete a Todo: "/todo-services/delete-todo/user/{username}/todo/{todo_id}"
 
 
-
 ### Discovery Services
 
-Netflix Eureka Naming Server is used as discovery service for the Microservices.
+Netflix Eureka Naming Server is used as discovery service for the Microservices. The Todo Service and API Gateway register with Naming Server during initialisation.
+
+#### Usage
+
+    Deploy: java -jar naming-server-0.0.1-SNAPSHOT.jar --spring.profiles.active=default
+
+    View: http://<IP Address/Domain Name>:8761
 
 ### API Gateway
 
@@ -78,4 +69,3 @@ Netflix Eureka Naming Server is used as discovery service for the Microservices.
 ### Tracing & Logging Service
 
 ## Acknowledgements
->>>>>>> 11acc3a (Updated README.md)
