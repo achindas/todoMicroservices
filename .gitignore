@@ -35,3 +35,4 @@ build/
 
 ### Manual Additions ###
 /git-config-repo/
+/deploy/
